@@ -686,6 +686,7 @@ table {
       align-items: center;
       text-decoration: none;
       color:  white;
+      margin-left: -50px;
     }
     @media screen and (max-width: 720px) {
       .play {
