@@ -360,9 +360,10 @@ table {
         bottom: 20px;
         left: 20px;
         right: 20px; } }
-  .privacy_message_btn {
+.privacy_message_btn {
     height: 36px;
     padding: 0 64px;
+    margin-top: 10px;
     background: #fff;
     color: #000;
     font-size: 15px;
@@ -428,7 +429,7 @@ table {
 .social {
   display: flex;
   flex-direction: row;
-  margin-top: 78px;
+  margin-top: 38px;
 }
 
 .social div {
@@ -872,7 +873,7 @@ table {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #181c33;
+    background: url(../images/video.jpg);
     opacity: .8; }
   .main_video video {
     position: absolute;
