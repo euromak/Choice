@@ -282,8 +282,7 @@ table {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 2;
-  background: url("./../img/pattern.svg"); }
+  z-index: 2;}
 
 .container {
   position: relative;
@@ -628,17 +627,19 @@ table {
     display: block;
     float: left;
     width: 140px;
-    height: 61px;
-    background: url("./../img/header_logo.svg") no-repeat left center; }
-    .site-header_logo_mobile {
-      display: none; }
-      @media screen and (max-width: 1000px) {
-        .site-header_logo_mobile {
-          margin-top: 19px;
-          background-size: contain;
-          width: 95px;
-          height: 20px;
-          display: block; } }
+    height: 61px; }
+  .site-header_logo_mobile {
+    display: none; }
+
+@media screen and (max-width: 1000px) {
+  .site-header_logo_mobile {
+    margin-top: 19px;
+    background-size: contain;
+    width: 95px;
+    height: 20px;
+    display: block; }
+ }
+
   .site-header_right {
     display: flex;
     flex: 1;
