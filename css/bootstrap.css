@@ -66,7 +66,6 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -160,7 +159,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: white;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -573,8 +572,6 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -608,7 +605,6 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
   padding-left: 15px;
 }
 
@@ -3949,6 +3945,7 @@ input[type="button"].btn-block {
 
 .tab-content > .active {
   display: block;
+  margin-bottom:40px;
 }
 
 .navbar {
