@@ -895,7 +895,10 @@ table {
 
 .main_video {
   position: fixed;
+<<<<<<< HEAD
   background: url(../images/video.jpg) no-repeat;
+=======
+>>>>>>> 046f15b43a89a7e756ecc1edbb136ea210c245a4
   top: 0;
   right: 0;
   bottom: 0;
